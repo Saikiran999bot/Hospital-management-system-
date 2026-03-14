@@ -1,7 +1,7 @@
 {
   "name": "medicare-hms",
-  "version": "4.0.0",
-  "description": "MediCare+ HMS v4 — Gemini 2.5 Flash, Email, WhatsApp, Telegram",
+  "version": "4.1.0",
+  "description": "MediCare+ HMS v4.1 \u2014 Resend email, Gemini 2.5 Flash",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -14,8 +14,7 @@
     "dotenv": "^16.3.1",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "uuid": "^9.0.0",
-    "nodemailer": "^6.9.9"
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
