@@ -625,16 +625,10 @@ app.post("/api/ai/suggest", auth, async (req, res) => {
 Patient: ${patient_name||"Patient"}, Age: ${patient_age||"Unknown"}
 Symptoms: "${problem}"
 
-STRICT RULES: ONLY home remedies and natural relief. NO medicines, drugs, or supplements of any kind.
+STRICT RULES: ONLY home remedies and natural relief. NO medicines, drugs, or supplements of any kind.short and understandable for user only.
 
 **🏠 Home Remedies for Temporary Relief:**
 • (List 4-6 specific, practical home remedies tailored to these exact symptoms)
-
-**🛁 Comfort Measures:**
-• (2-3 immediate comfort tips)
-
-**⚠️ Seek Emergency Help If:**
-• (2-3 red flag warning signs specific to these symptoms)
 
 **💚 From MediCare+:**
 (One warm, encouraging sentence about their upcoming appointment)
